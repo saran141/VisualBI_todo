@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15188" started-at="2020-09-12T14:13:43Z" finished-at="2020-09-12T14:13:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15188" started-at="2020-09-12T14:13:43Z" finished-at="2020-09-12T14:13:58Z">
+      <class name="businesscomponents.ToDos">
+        <test-method status="PASS" signature="initializereport()[pri:0, instance:businesscomponents.ToDos@3d299e3]" name="initializereport" is-config="true" duration-ms="155" started-at="2020-09-12T19:43:43Z" finished-at="2020-09-12T19:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializereport -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:businesscomponents.ToDos@3d299e3]" name="beforeMethod" is-config="true" duration-ms="3941" started-at="2020-09-12T19:43:43Z" finished-at="2020-09-12T19:43:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_Add_Complete_Delete_Filter_ToDo(java.lang.String)[pri:0, instance:businesscomponents.ToDos@3d299e3]" name="TC_Add_Complete_Delete_Filter_ToDo" duration-ms="9911" started-at="2020-09-12T19:43:47Z" finished-at="2020-09-12T19:43:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://todomvc.com/examples/angularjs/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Add_Complete_Delete_Filter_ToDo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:businesscomponents.ToDos@3d299e3]" name="afterMethod" is-config="true" duration-ms="1152" started-at="2020-09-12T19:43:57Z" finished-at="2020-09-12T19:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- businesscomponents.ToDos -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

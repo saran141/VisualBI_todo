@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://todomvc.com/examples/angularjs/#/"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://todomvc.com/examples/angularjs/#/"/>
+    <classes>
+      <class name="businesscomponents.ToDos">
+        <methods>
+          <include name="TC_Add_Complete_Delete_Filter_ToDo" invocation-numbers="0"/>
+          <include name="initializereport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- businesscomponents.ToDos -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
